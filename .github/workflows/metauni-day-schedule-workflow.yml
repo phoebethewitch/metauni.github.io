@@ -28,11 +28,10 @@ jobs:
         run: schedule/validate-schedule.py
   update-index:
     needs: validate-schedule
+    concurrency: schedule-push-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v3
         with:
           python-version: 3.x
@@ -45,7 +44,7 @@ jobs:
           git config user.email github-actions@github.com
           git add index.md
           git commit -m "Auto-update schedule" || echo "No changes to commit"
-          git push origin ${{ github.head_ref }}
+          git push
   create-discord-events:
     needs: validate-schedule
     env:
@@ -76,11 +75,10 @@ jobs:
         run: schedule/update-data-store.py
   update-icalendar:
     needs: validate-schedule
+    concurrency: schedule-push-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v3
         with:
           python-version: 3.x
@@ -93,4 +91,4 @@ jobs:
           git config user.email github-actions@github.com
           git add schedule.ics
           git commit -m "Auto-update calendar" || echo "No changes to commit"
-          git push origin ${{ github.head_ref }}
+          git push
