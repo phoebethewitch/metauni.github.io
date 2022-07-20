@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+      - "calendar-screwing-around!!!"
     paths:
       - schedule/schedule.yml
 
