@@ -2,13 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:reading group on technical and philosophical topics in AI safety.
-DTEND:20220721T120000Z
-LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
-DTSTART:20220721T110000Z
-SUMMARY:AI Safety
-UID:b94f0587-4f19-4e0b-a32c-b48a556b5b92@b94f.org
-URL:https://metauni.org/posts/events/seminar-ai-safety
+DESCRIPTION:on [zero knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof). *Note:* runs every second week.
+DTEND:20220721T110000Z
+LOCATION:https://www.roblox.com/games/8164849103/Deprecation
+DTSTART:20220721T100000Z
+SUMMARY:Cryptography
+UID:8d17b4fd-b8bb-42f7-ae4d-0f981066d0b3@8d17.org
+URL:https://lnor.net/uc-seminar.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20220720T233000Z
+DTSTART:20220720T223000Z
+SUMMARY:Tea break
+UID:c4e4f187-d376-4e07-9e51-c2991fec3c70@c4e4.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Towards a science of technological disruption. An open discussion of technological disruption\, how it works\, what it means and how to play a positive part in it.
@@ -16,14 +22,43 @@ DTEND:20220721T013000Z
 LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
 DTSTART:20220721T003000Z
 SUMMARY:Disruption
-UID:3fd5b875-3d7a-4e3d-9e75-81f6f27be0b1@3fd5.org
+UID:c1f9de3c-1756-4328-b90c-17df65e6aae8@c1f9.org
 URL:https://metauni.org/posts/events/seminar-disruption
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20220720T233000Z
-DTSTART:20220720T223000Z
-SUMMARY:Tea break
-UID:65fa3834-81f2-46ed-ab1b-c8a43a4c3eca@65fa.org
+DESCRIPTION:reading group on technical and philosophical topics in AI safety.
+DTEND:20220721T120000Z
+LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
+DTSTART:20220721T110000Z
+SUMMARY:AI Safety
+UID:5acf78d4-f066-4bd4-a9ac-fcac3c37426b@5acf.org
+URL:https://metauni.org/posts/events/seminar-ai-safety
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:coding and math in Roblox (in the [Discord](https://discord.gg/9yBaAxPSK8)). Sometimes we livestream working on metauni infrastructure\, and sometimes we have guest speakers from the Roblox dev community presenting interesting projects they are working on.\n\n*This week*: Excursion\, Rift Royale\, Gaming.
+DTEND:20220721T023000Z
+LOCATION:#General
+DTSTART:20220721T013000Z
+SUMMARY:Code
+UID:087f503c-7d99-4a1e-8484-e7f88d0937d0@087f.org
+URL:https://metauni.org/posts/events/seminar-code
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:development meeting (in the [Discord](https://discord.gg/9yBaAxPSK8)).\n\nit is fun! blargh. metaboard!!!!!!!!!!!!!!!! hehe
+DTEND:20220721T033000Z
+LOCATION:#metaboard-dev
+DTSTART:20220721T023000Z
+SUMMARY:#metauni-dev
+UID:0f6c6b36-23d4-4f1c-a531-8485b9d9c0e3@0f6c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The nature of mathematical objects and the languages we use to describe them. The surprising utility of these languages when considered as a mathematical objects themselves. Currently using model theory to prove the Ax-Grothendieck Theorem.
+DTEND:20220721T130000Z
+LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
+DTSTART:20220721T120000Z
+SUMMARY:Foundations
+UID:bec53f47-753d-41eb-bbed-7c788fc5dd48@bec5.org
+URL:http://metauni.org/posts/events/seminar-foundations
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Singularities are knowledge. A learning seminar on Watanabe’s Singular Learning Theory: algebraic geometry serves statistical learning theory.\n\n*This week*: working session.
@@ -31,7 +66,7 @@ DTEND:20220721T003000Z
 LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
 DTSTART:20220720T233000Z
 SUMMARY:Singular Learning Theory
-UID:59cf30a7-618f-41bf-bae5-0a57ca08e84c@59cf.org
+UID:fe42cd5f-457d-41be-af8f-33cbf484db9d@fe42.org
 URL:https://metauni.org/posts/events/seminar-slt
 END:VEVENT
 BEGIN:VEVENT
@@ -40,42 +75,7 @@ DTEND:20220720T223000Z
 LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
 DTSTART:20220720T210000Z
 SUMMARY:metauni Algebraic Geometry
-UID:e5c1d810-f29e-4e09-912c-63b138d7f413@e5c1.org
+UID:b4a6f68c-3ccc-47c0-b64b-ab60f106ca28@b4a6.org
 URL:https://metauni.org/mag/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:development meeting (in the [Discord](https://discord.gg/9yBaAxPSK8)).\n\nit is fun! blargh
-DTEND:20220721T033000Z
-LOCATION:#metaboard-dev
-DTSTART:20220721T023000Z
-SUMMARY:#metauni-dev
-UID:b3b53fe8-2ac4-4151-927c-82dacce63f45@b3b5.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:The nature of mathematical objects and the languages we use to describe them. The surprising utility of these languages when considered as a mathematical objects themselves. Currently using model theory to prove the Ax-Grothendieck Theorem.
-DTEND:20220721T130000Z
-LOCATION:https://www.roblox.com/games/8165217582/The-Rising-Sea
-DTSTART:20220721T120000Z
-SUMMARY:Foundations
-UID:7a1bd3ac-3a5a-4f89-a84d-0c6bcee55041@7a1b.org
-URL:http://metauni.org/posts/events/seminar-foundations
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:coding and math in Roblox (in the [Discord](https://discord.gg/9yBaAxPSK8)). Sometimes we livestream working on metauni infrastructure\, and sometimes we have guest speakers from the Roblox dev community presenting interesting projects they are working on.\n\n*This week*: Excursion\, Rift Royale\, Gaming.
-DTEND:20220721T023000Z
-LOCATION:#General
-DTSTART:20220721T013000Z
-SUMMARY:Code
-UID:0f2554b8-2889-4ffe-84be-2816c67cdc56@0f25.org
-URL:https://metauni.org/posts/events/seminar-code
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:on [zero knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof). *Note:* runs every second week.
-DTEND:20220721T110000Z
-LOCATION:https://www.roblox.com/games/8164849103/Deprecation
-DTSTART:20220721T100000Z
-SUMMARY:Cryptography
-UID:183344e8-2ff6-4500-8c88-0fbdec2ab350@1833.org
-URL:https://lnor.net/uc-seminar.html
 END:VEVENT
 END:VCALENDAR
